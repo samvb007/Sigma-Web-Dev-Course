@@ -1,0 +1,8 @@
+SEO -
+
+Core Web Vitals - Chrome provides "lighthouse" option inside inspect tab
+1. CLS(Cummulative Layout Shift)
+2. LCP
+3. FID
+4. PWA (Progressive Web App)
+so on (visit - https://www.web.dev.com)
