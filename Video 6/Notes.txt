@@ -1,8 +1,10 @@
 SEO -
 
-Core Web Vitals - Chrome provides "lighthouse" option inside inspect tab
-1. CLS(Cummulative Layout Shift)
-2. LCP
-3. FID
+Core Web Vitals - 
+Chrome provides "lighthouse" option inside inspect tab(Rank the website)
+  - lighthouse option provide suggests improvemnets required in page.
+1. CLS(Cummulative Layout Shift) -  while loading the page how your page is shifted.
+2. LCP(largest Contextiual Paint) - good LCP score is considered as 2.5 sec(when page loaded)
+3. FID(First Input Delay) - 100 milisec input should be processed
 4. PWA (Progressive Web App)
 so on (visit - https://www.web.dev.com)
