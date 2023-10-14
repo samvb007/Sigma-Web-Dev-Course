@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video, Audio and Media</title>
+</head>
+<body>
+    <!-- video,audio - you can have video not from PC but aws s3 bucket etc
+     just provide the link inside src-->
+     <!-- video attribute autoplay,muted,loop,poster - thumbnail -->
+    <video src="video.mp4" width="555" height="255" controls autoplay poster="download.jpg"></video>
+    <!-- audio preload - none,metadata, auto-->
+    <audio src="sachin.mp3" controls loop preload></audio>
+
+    <!--MEDIA-->
+    <!--svg - advance high graphics - media -->
+    
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <!-- inside svg file xmlns is must or else you cannot see image in brower ref-stackoverflow(svg image not showing)-->
+    <img src="img.svg" alt="My SVG Image">
+    
+    <!--iframe - embed the a website inside your website-->
+    <!--iframe src="https://www.codewithharry.com/tutorial/html-iframes/" width="322" height="444"></iframe-->
+
+    <!--embed youtube video-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tVzUXW6siu0?si=NuQZuYqrMHn7Pg-i&amp;start=739" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
